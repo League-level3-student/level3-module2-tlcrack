@@ -14,8 +14,8 @@ public class SortingVisualizer extends JLabel{
 	private static final long serialVersionUID = 1L;
 	private static final int WIDTH = 500;
 	private static final int HEIGHT = 500;
-	
-	private static final int ARRAY_SIZE = 250;
+
+	private static final int ARRAY_SIZE = 5;
 	private static final int MAX = 500;
 	
 	private int cellWidth;
