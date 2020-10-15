@@ -24,8 +24,8 @@ public class BogoSorter extends Sorter {
 		Random r = new Random();
 		while(sorting) {
 			sorting=false;
-			for(int i =0; i< array.length; i++) {
-				if(array[i]>array[i+1]) {
+			for(int i =1; i< array.length; i++) {
+				if(array[i]<array[i-1]) {
 					int swap = 0;
 					int rand = r.nextInt(array.length);
 					int random = r.nextInt(array.length);
