@@ -33,4 +33,8 @@ public class Algorithms {
 		}
 		return n;
 	}
+	
+	public static boolean containsSOS(List<String> message) {
+		return false;
+	}
 }
